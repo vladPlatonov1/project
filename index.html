@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Vlad Platonov</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:300px">
+
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    </div>
+  </header>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://cdn.britannica.com/95/117395-050-0237844C/Dniester-River-Moldova.jpg" alt="Moldova" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Moldova</b></p>
+        <p>Our beautiful country and the beautiful river of Dniester.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://freedomhouse.org/sites/default/files/2020-02/Moldova_Country_portal_shutterstock_1480105262-84.jpg" alt="Ștefan cel Mare Central Park" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Ștefan cel Mare Central Park</b></p>
+        <p>The center of the capital of the Republic of Moldova, near the Ștefan cel Mare Central Park.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://guidesofmoldova.com/storage/destinations/July2021/Orheiul%20Vechi.jpg" alt="Orheiul Vechi" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Orheiul Vechi</b></p>
+        <p>Another beautiful location in our country, Orheiul Vechi, or The Old Orhei in English.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://images.pond5.com/gates-city-chisinau-moldova-088356281_prevstill.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>The City Gates</b></p>
+        <p>Once you enter the city, you will be met by the "City Gates". Built in 1980, still in great.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://moldova.md/sites/default/files/soroca.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Soroca and The Citadel</b></p>
+        <p>The Citadel of Soroca is one of the most visited attractions in the Republic of Moldova.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10DCC/production/_127786096_gettyimages-1222963543.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Chisinau</b></p>
+        <p>The city landscape at night, what a beautiful view...what a beautiful city.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4 id="about"><b>About Me</b></h4>
+    <p>Just me, myself and I, exploring the universe of unknownment. My passion has been The Republic of Moldova since I was young. It has a beautiful culture and beautiful landscapes and I fel in love with it. This is my Portofolio of the picutres I took in this amazing country. I hope you like them.</p>
+    <hr>
+    
+    <h4>Skills:</h4>
+    <p>Photography</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%; background-color: #009688 !important;">60%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%; background-color: #009688 !important;">90%</div>
+    </div>
+    <hr>
+
+  <footer class="w3-container w3-padding-32 w3-dark-grey" style="background-color: #009688 !important;">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Vlad Platonov</h3>
+      <p>My <b>Passion</b> is my <b>Country</b>.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <span class="w3-large">Portofolio</span><br>
+          <span>My Collage of Photos</span>
+        </li>
+        <li class="w3-padding-16">
+          <span class="w3-large">About Me</span><br>
+          <span>Information About Me</span>
+        </li> 
+      </ul>
+    </div>
+
+  </div>
+  </footer>
+</div>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
